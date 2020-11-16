@@ -1,0 +1,36 @@
+package ${package}.modules.${moduleName}.model.req;
+
+import com.daxiongys.common.model.BaseReq;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.*;
+#if(${hasBigDecimal})
+import java.math.BigDecimal;
+#end
+#if(${hasDate})
+import java.util.Date;
+#end
+
+/**
+ * ${comments}
+ *
+ * @date ${datetime}
+ * @author ${author} ${email}
+ * @version ${version}
+ */
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode(callSuper = true)
+@ApiModel(value = "${comments}请求实体")
+public class ${className}Req extends BaseReq {
+    private static final long serialVersionUID = 1L;
+
+#foreach ($column in $columns)
+	@ApiModelProperty(value = "$column.comments")
+	private $column.attrType $column.attrname;
+
+#end
+
+}

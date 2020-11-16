@@ -1,0 +1,24 @@
+package ${package}.modules.${moduleName}.service.impl;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import ${package}.modules.${moduleName}.mapper.${className}Mapper;
+import ${package}.modules.${moduleName}.entity.${className};
+import ${package}.modules.${moduleName}.service.${className}Service;
+import ${package}.modules.${moduleName}.service.manager.${className}Manager;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+/**
+ * ${comments}
+ *
+ * @date ${datetime}
+ * @author ${author} ${email}
+ * @version ${version}
+ */
+@Service
+public class ${className}ServiceImpl extends ServiceImpl<${className}Mapper, ${className}> implements ${className}Service {
+
+    @Autowired
+    private ${className}Manager manager;
+
+}

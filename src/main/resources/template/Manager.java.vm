@@ -1,0 +1,18 @@
+package ${package}.modules.${moduleName}.service.manager;
+
+
+import org.springframework.stereotype.Service;
+
+
+/**
+ * ${comments}
+ *
+ * @date ${datetime}
+ * @author ${author} ${email}
+ * @version ${version}
+ */
+@Service
+public class ${className}Manager{
+
+
+}
