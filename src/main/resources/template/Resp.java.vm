@@ -1,6 +1,6 @@
-package ${package}.modules.${moduleName}.model.resp;
+package ${package}.${moduleName}.model.resp;
 
-import cn.acorg.model.BaseResp;
+import cn.acorg.common.core.model.BaseResp;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;

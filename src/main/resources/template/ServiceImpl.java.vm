@@ -1,10 +1,10 @@
-package ${package}.modules.${moduleName}.service.impl;
+package ${package}.${moduleName}.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import ${package}.modules.${moduleName}.mapper.${className}Mapper;
-import ${package}.modules.${moduleName}.entity.${className};
-import ${package}.modules.${moduleName}.service.${className}Service;
-import ${package}.modules.${moduleName}.service.manager.${className}Manager;
+import ${package}.${moduleName}.mapper.${className}Mapper;
+import ${package}.${moduleName}.entity.${className};
+import ${package}.${moduleName}.service.${className}Service;
+import ${package}.${moduleName}.service.manager.${className}Manager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

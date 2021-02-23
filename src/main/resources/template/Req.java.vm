@@ -1,6 +1,6 @@
-package ${package}.modules.${moduleName}.model.req;
+package ${package}.${moduleName}.model.req;
 
-import cn.acorg.model.BaseReq;
+import cn.acorg.common.core.model.BaseReq;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;

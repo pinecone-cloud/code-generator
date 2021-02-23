@@ -1,4 +1,4 @@
-package ${package}.modules.${moduleName}.excel;
+package ${package}.${moduleName}.excel;
 
 import cn.afterturn.easypoi.excel.annotation.Excel;
 import lombok.Data;

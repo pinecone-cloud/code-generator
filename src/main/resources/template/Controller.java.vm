@@ -1,6 +1,6 @@
-package ${package}.modules.${moduleName}.controller;
+package ${package}.${moduleName}.controller;
 
-import ${package}.modules.${moduleName}.service.${className}Service;
+import ${package}.${moduleName}.service.${className}Service;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package ${package}.modules.${moduleName}.service.manager;
+package ${package}.${moduleName}.service.manager;
 
 
 import org.springframework.stereotype.Service;
